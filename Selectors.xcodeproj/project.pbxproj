@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F40B0EC519D31B0200B730D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B0EC419D31B0200B730D5 /* main.m */; };
+		F40B0ECD19D31B5500B730D5 /* Selector.m in Sources */ = {isa = PBXBuildFile; fileRef = F40B0ECC19D31B5500B730D5 /* Selector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F40B0EC119D31B0200B730D5 /* Selectors */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Selectors; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40B0EC419D31B0200B730D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F40B0ECB19D31B4300B730D5 /* Selector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selector.h; sourceTree = "<group>"; };
+		F40B0ECC19D31B5500B730D5 /* Selector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				F40B0EC419D31B0200B730D5 /* main.m */,
+				F40B0ECB19D31B4300B730D5 /* Selector.h */,
+				F40B0ECC19D31B5500B730D5 /* Selector.m */,
 			);
 			path = Selectors;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40B0ECD19D31B5500B730D5 /* Selector.m in Sources */,
 				F40B0EC519D31B0200B730D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
